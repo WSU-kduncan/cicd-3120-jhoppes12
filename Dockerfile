@@ -1,4 +1,4 @@
-# adding comment to trigger build 
+# comment to trigger build 
 
 FROM centos:7
 
