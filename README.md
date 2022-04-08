@@ -31,7 +31,14 @@ install engine
 
 # Part 2 
 
+1. To create a docker repo I went to docker hub signed in clicked repositories on the top bar of the page. 
+I then hit create repo in the top right of the page. I then gave the repo a name and hit create. You can now push imagesto that docker repo. 
 
+2. To allow DockerHub authentication via CLI using Dockhub credentials I had to create a docker token. I did this by logging into docker hub clicking on my account in the top right. Went to account settings and then secruity. Then I selected new access token. I gave the token a description and then copied the token for use. 
+
+3. To configure Secerts I went to the repos settings and went down to secrets and chose actions. Then I selected New repository secret. For the secert names I used DOCKER_USERNAME and  DOCKER_PASSWORD You then type in your credentials in the value box and hit add secret. 
+
+4. To configure my github workflow I used a combination of the templates tha you provided and from github.I had to change the repo to webpage because that is the name of my docker hub repo. I also had to change my docker file to make sure it knew where my index.html file was. I also had to make sure I had the correct secerts set up. Besides those things I went with what I found on the templates and got my file up and running.  
 
 
 
