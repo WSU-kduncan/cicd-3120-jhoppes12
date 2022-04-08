@@ -7,8 +7,7 @@ on:
 env:
   DOCKER_HUB_REPO: jhoppes/webpage
 jobs:
-    build_and_push:
-    name: Build docker image and push to Docker Hub      
+    build_and_push:      
     runs-on: ubuntu-latest
     steps:
       - name: Check out the repo
