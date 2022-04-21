@@ -8,12 +8,12 @@ sudo docker image prune -f
 
 # Stop the container
 
-sudo docker stop centos_webpage 
+sudo docker stop latest 
 
 # Remove the container
 
-sudo docker rm centos_webpage 
+sudo docker rm latest  
 
 # Recreate the container
 
-sudo docker run -p 80:80 -d --name centos_webpage jhopppes/webpage 
+sudo docker run -p 80:80 -d --name latest jhopppes/webpage 
