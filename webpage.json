@@ -1,0 +1,22 @@
+[
+    { 
+      "id": "webpage",
+      "execute-command": "./docker.sh",
+      "command-working-directory": "~/cicd-3120-jhoppes12",
+      "response-message": "Executing redeploy web resume container",
+      "trigger-rule":
+      {
+        "match":
+        {
+          "type": "3388",
+          "value": "CREATE-YOUR-OWN-TOKEN",
+          "parameter":
+          {
+            "source": "url",
+            "name": "Website"
+          }
+        }
+      }
+    }
+]
+
