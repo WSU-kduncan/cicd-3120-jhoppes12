@@ -2,7 +2,7 @@
     { 
       "id": "webpage",
       "execute-command": "./docker.sh",
-      "command-working-directory": "/etc/scripts",
+      "command-working-directory": "~/cicd-3120-jhoppes12",
       "response-message": "Executing redeploy web resume container",
       "trigger-rule":
       {
