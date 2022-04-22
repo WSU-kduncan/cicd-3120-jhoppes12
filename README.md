@@ -27,8 +27,6 @@ install engine
 4. To view the page I went to http://localhost:80/ 
 
 
-
-
 # Part 2 
 
 1. To create a docker repo I went to docker hub signed in clicked repositories on the top bar of the page. 
@@ -42,17 +40,19 @@ I then hit create repo in the top right of the page. I then gave the repo a name
 
 
 
-
 # Part 3
 
+1. The container restart script pulles the latest version of the image, removes the unused image, stops the container, removes the container, and then recreates the container.
 
+2. The webhook task definition file contains the end point configuration and triggers the restart st
+and contains the trigger rule.
 
+3. To set the webhook up on github I went to my repo settings and then added a webhook. Filled out the webhook with the URL and the content type, and the secret. 
 
-
-
-
+4. To set up a notifier in docker I went to my repo then the webhooks section and added in the url to my webhook. 
 
 
 # Part 4 
 
 
+![diagram](part4.PNG)
