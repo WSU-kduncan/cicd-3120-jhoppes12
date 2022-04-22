@@ -1,19 +1,19 @@
 [
     { 
       "id": "webpage",
-      "execute-command": "./docker.sh",
+      "execute-command": "~/cicd-3120-jhoppes12/docker.sh",
       "command-working-directory": "~/cicd-3120-jhoppes12",
       "response-message": "Executing redeploy web resume container",
       "trigger-rule":
       {
         "match":
         {
-          "type": "value",
+          "type": "payload-hash-sha1",
           "value": "3388",
           "parameter":
           {
-            "source": "url",
-            "name": "Website"
+            "source": "header",
+            "name": "X-Hub-Signature"
           }
         }
       }
