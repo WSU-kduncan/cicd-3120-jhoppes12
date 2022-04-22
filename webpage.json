@@ -8,8 +8,8 @@
       {
         "match":
         {
-          "type": "3388",
-          "value": "CREATE-YOUR-OWN-TOKEN",
+          "type": "value",
+          "value": "3388",
           "parameter":
           {
             "source": "url",
