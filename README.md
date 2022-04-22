@@ -55,4 +55,4 @@ and contains the trigger rule.
 # Part 4 
 
 
-![diagram](part4.PNG)
+![part 4 chart](part4.PNG)
